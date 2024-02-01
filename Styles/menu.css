@@ -1,0 +1,122 @@
+/* Typography */
+h1,
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Hero section */
+.background-img {
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* I had to implement this to fix a weird issue of the background color not extending upwards to touch the header */
+.background-img {
+  border: solid 2px white;
+}
+
+/* Submenu Link Bar */
+#menu-links {
+  background-color: #393939;
+}
+
+#menu-links nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+#menu-links nav ul li {
+  margin: 20px;
+}
+
+#menu-links a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-width: 4px;
+  border-color: #5bacc3;
+}
+
+#menu-links nav ul li:nth-child(2) {
+  border-left: 4px solid #5bacc3;
+  border-right: 4px solid #5bacc3;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Sections */
+#hot-drinks ul li {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+}
+
+#cold-drinks ul li {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+}
+
+#pastries ul li {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+}
+
+.price {
+  color: #5bacc3;
+  padding-left: 0;
+}
+
+#hot-drinks,
+#pastries {
+  background-color: #fff0ed;
+}
+
+#cold-drinks {
+  background-color: #f7f7f7;
+}
+
+.menu-box {
+  background-color: #393939;
+  color: white;
+  width: 300px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+/* I had to implement this to fix a weird issue of the background color not extending upwards to touch the header */
+.menu-box {
+  border: solid 2px #393939;
+}

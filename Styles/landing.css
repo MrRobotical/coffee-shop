@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Typography stylings */
+h1,
+h2 {
+  font-size: 3.75rem; /* Assuming 1rem = 16px */
+  font-weight: 300;
+}
+
+#products h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+p span {
+  font-weight: bold;
+}
+
+.price {
+  color: #5bacc3;
+  font-size: 1.75rem;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Our Hero image Section */
+#nitro-coffee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff0ed;
+}
+
+#nitro-coffee img {
+  padding-right: 50px;
+}
+
+/* I had to implement this to fix a weird issue of the background color not extending upwards to touch the header */
+#nitro-coffee {
+  border: solid 2px #fff0ed;
+}
+
+.title-paragraph-btn {
+  width: 400px;
+  padding-left: 50px;
+}
+
+/* Cards section */
+.new-product-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card img {
+  height: 15rem;
+  padding: 50px;
+}
+
+.card {
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 30px 15px;
+  height: 400px;
+  width: 300px;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card p {
+  margin-top: 0;
+}
+
+/* Bottons */
+
+button {
+  background-color: #5bacc3;
+  font-size: 1.5rem;
+  border: none;
+  color: white;
+  padding: 1.25rem;
+  margin-top: 40px;
+}
+
+/* View All Button */
+.view-all {
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding: 1.25rem;
+}
+
+/* Discount stylings */
+#discount {
+  background-color: #393939;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  width: 1000px;
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.coupon {
+  font-weight: bold;
+}
+
+/* Footer Stylings */
+#footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff0ed;
+}
+
+#footer h3 {
+  font-weight: 400;
+}
+
+#footer img {
+  width: 3rem;
+  height: 3rem;
+}
